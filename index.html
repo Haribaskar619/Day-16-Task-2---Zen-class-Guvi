@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+
+        <!-- Heading section -->
+        <h1>Event 1</h1>
+        <p><strong>No of available seats: 23</strong></p>
+        <!-- End of Heading -->
+
+        <!-- Container and left side dic creation -->
+        <div id="mainbox" class="container-fluid">
+            <div class="row">
+            <div id="left" class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <img src="https://thumbs.dreamstime.com/b/live-event-vector-template-design-illustration-148663285.jpg" class="img-thumbnail" alt="">
+            </div>
+            <!-- End of left side div   -->
+
+            
+            <!-- Right side from area creation -->
+            <div id="right" class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <form>
+                <div class="row mb-3">
+                    <label for="name" class="col-sm-3 col-form-label">Name :</label>
+                    <div class="col-auto">
+                      <input type="text" class="form-control" id="name">
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="email" class="col-sm-3 col-form-label">Email :</label>
+                    <div class="col-auto">
+                      <input type="text" class="form-control" id="email">
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="phoneno" class="col-sm-3 col-form-label">Phone No:</label>
+                    <div class="col-auto">
+                      <input type="number" class="form-control" id="phoneno">
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="nooftick" class="col-sm-3 col-form-label">No of tickets:</label>
+                    <div class="col-auto">
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                          </select>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="attende" class="col-sm-3 col-form-label">No of Attendee 2:</label>
+                        <div class="col-auto">
+                          <input type="text" class="form-control" id="attende">
+                        </div>
+                      </div>
+                      <div id="lastbutton" class="row mb-3">
+                        <div class="col-auto">
+                            <input class="btn btn-primary" type="submit" value="Submit">
+                            <input class="btn btn-primary" type="reset" value="Reset">
+                        </div>
+                      </div>
+                  </div>
+            </form>
+            <!-- End of Form area div -->
+
+
+            </div>      
+        </div>
+        </div>
+    </section>
+</body>
+</html>
